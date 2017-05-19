@@ -30,7 +30,7 @@ Active Directory Lightweight Directory Service|디렉토리 데이터베이스 �
 
 이 의문을 해결하기위해 우선 Active Directory의 「신뢰관계」라는 개념부터 짚고 넘어가자. Active Directory의 신뢰관계는 「로그인한 유저가 접근 가능한 범위를 확장하는 기능」이다.  도메인을 2개이상 작성한 경우 이 신뢰관계에 의해 한 개의 도메인에서 로그인을 하면 다른 도메인도 접근이 가능하다. 
 
-![](image/ad_02/img01.PNG)
+![](image/ad_02/img01.png)
 
 이 신뢰관계에는 「방향」이라는 것이 있다. 그림1에서 「contoso.com」도메인이 「example.com」도메인을 신뢰한다라는 신뢰관계가 설정되어있다. 이 신뢰관계를 알기 쉽게 그림1에서는 빨간 화살표로 표시되어있다. 빨간화살표는 「contoso.com」도메인이 「example.com」도메인을 신뢰하고 있다는 것을 의미한다.  이것이 신뢰관계의 방향을 나타낸다. 
 
@@ -40,7 +40,7 @@ Active Directory Lightweight Directory Service|디렉토리 데이터베이스 �
 
 Active Directory에서 신뢰관계의 방향을 설정하는 경우 「Active Directory도메인과 신뢰관계」 관리 툴을 사용한다. 화면의 설명을 보면 보기 어렵기 때문에, 입력방향에는 신뢰하는 측의 도메인을 입력한다 라고 기억해두자. 
 
-![](image/ad_02/img02.PNG)
+![](image/ad_02/img02.png)
 
 
 
@@ -68,7 +68,7 @@ Active Directory의 신뢰관계를 이야기 할 때 빼놓을 수 없는 것�
 
 도메인트리는 포리스트내의 도메인간의 관계성을 표시한 것으로 기존에 존재하는 도메인과 같은 도메인이름 공간을 공유한다. 쉽게 예를 들면 「example.com」 이라고 하는 이름의 도메인이 있는 경우 「ad.example.com」과 같이 이미 있는 도매인명을 계승해 새로운 도메인명을 설정하는 경우 「example.com」와 「ad.example.com」는 도메인트리라고 불리는 관계가 된다. 
 
-![](image/ad_02/img03.PNG)
+![](image/ad_02/img03.png)
 
 포리스트와 도메인트리는 몇가지 장점이 있는데 그것은 다음 기회에 소개할 예정이다. 여기서는 포리스트와 도메인트리는 도메인 작성시 「포리스트의 일부로 할 것인가」 「도메인의 일부로 할 것 인가」를 결정하는 점에 주목하자. 
 
