@@ -11,7 +11,7 @@
 Active Directory가 제공하는 역할 명 |설명
 ---- | ----
 Active Directory 도메인 서비스|도메인의 기능을 제공
-Active Directory 인증서 서비스|사내 인증국으로서의 기능을 제공
+Active Directory 인증서 서비스|사내 인증국으로서의 기능을 제공 
 Active Directory Federation 서비스|조직간의 SSO기능을 제공
 Active Directory Rights Management 서비스|특정 파일에 대해 암호화와 접근제어기능을 제공함
 Active Directory Lightweight Directory Service|디렉토리 데이터베이스 기능을 제공
